@@ -174,6 +174,8 @@ Redis的ZSet（有序集合）底层结构采用跳跃表（SkipList）与哈希
 [30.能说说布隆过滤器吗？](https://github.com/itwanger/toBeBetterJavaer/blob/master/docs/src/sidebar/sanfene/redis.md#30%E8%83%BD%E8%AF%B4%E8%AF%B4%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E5%90%97)
 ## Raft选举算法的原理？在Redis中的应用？
 [10.说说 Raft 算法？](https://github.com/itwanger/toBeBetterJavaer/blob/master/docs/src/sidebar/sanfene/fenbushi.md#10%E8%AF%B4%E8%AF%B4-raft-%E7%AE%97%E6%B3%95)
+## Redis锁如何续期？Redis锁超时，任务没完怎么办？
+[美团面试：Redis锁如何续期？Redis锁超时，任务没完怎么办？](https://mp.weixin.qq.com/s/h3QY545R5US_WkjQXl8mbw)
 
 # Redis 集群与高可用
 
