@@ -108,6 +108,8 @@ Redis的ZSet（有序集合）底层结构采用跳跃表（SkipList）与哈希
    - 突发流量：允许突发流量，令牌可累积，支持短时间内大量请求。
    - 实现方式：使用定时器生成令牌，维护令牌数量和请求队列。
 
+## Redis的限流具体实现？
+
 ## 缓存击穿、缓存穿透、缓存雪崩的区别？各自解决方案？
 [29.缓存击穿、缓存穿透、缓存雪崩了解吗](https://github.com/itwanger/toBeBetterJavaer/blob/master/docs/src/sidebar/sanfene/redis.md#29%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E4%BA%86%E8%A7%A3%E5%90%97)
 ## 使用空对象解决了缓存穿透问题，如果此时在数据库中新增了该空对象，也就是说它现在不是一个空对象了，这个时候怎么处理？
